@@ -12,8 +12,7 @@
     "boolean",
     "boolean-json",
     "calculus",
-    "logic",
-    "normalization"
+    "logic"
   ],
   "license": "MIT",
   "repository": "kemitchell/boolean-json-variables.js",
