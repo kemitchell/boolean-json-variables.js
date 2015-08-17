@@ -1,11 +1,12 @@
 ```javascript
 var variables = require('boolean-json-variables')
-var assert = require('assert')
 ```
 
-`variables` takes a [boolean-json](https://npmjs.com/packages/boolean-json-schema) object argument and returns an array of strings.
+The package exports a function of one [boolean-json](https://npmjs.com/packages/boolean-json-schema) argument. It returns an array of string variable names.
 
 ```javascript
+var assert = require('assert')
+
 assert.deepEqual(
   variables({
     and: [
