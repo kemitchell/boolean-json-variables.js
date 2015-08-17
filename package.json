@@ -1,0 +1,23 @@
+{
+  "name": "boolean-json-variables",
+  "description": "identify variables in boolean-json objects",
+  "version": "0.0.0",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
+  "devDependencies": {
+    "defence-cli": "~1.0.1",
+    "replace-require-self": "~1.0.0"
+  },
+  "keywords": [
+    "algebra",
+    "boolean",
+    "boolean-json",
+    "calculus",
+    "logic",
+    "normalization"
+  ],
+  "license": "MIT",
+  "repository": "kemitchell/boolean-json-variables.js",
+  "scripts": {
+    "test": "defence README.md | replace-require-self | node"
+  }
+}
