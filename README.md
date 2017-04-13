@@ -10,16 +10,20 @@ var assert = require('assert')
 assert.deepEqual(
   variables({
     and: [
-      { or: [ 'w', 'x', 'y' ] },
-      { not: 'z' } ] })
-    .sort(),
-  [ 'w', 'x', 'y', 'z' ])
+      {or: ['w', 'x', 'y']},
+      {not: 'z'}
+    ]
+  }).sort(),
+  ['w', 'x', 'y', 'z']
+)
 
 assert.deepEqual(
   variables({
     and: [
-      { or: [ 'a', 'b', 'c', 'd' ] },
-      { and: [ 'a', 'c' ] } ] })
-    .sort(),
-  [ 'a', 'b', 'c', 'd' ])
+      {or: ['a', 'b', 'c', 'd']},
+      {and: ['a', 'c']}
+    ]
+  }).sort(),
+  ['a', 'b', 'c', 'd']
+)
 ```
