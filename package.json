@@ -5,9 +5,7 @@
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "devDependencies": {
     "defence-cli": "^3.0.1",
-    "replace-require-self": "^1.1.1",
-    "standard": "^10.0.1",
-    "standard-markdown": "^2.3.0"
+    "replace-require-self": "^1.1.1"
   },
   "keywords": [
     "algebra",
@@ -19,7 +17,6 @@
   "license": "MIT",
   "repository": "kemitchell/boolean-json-variables.js",
   "scripts": {
-    "test": "defence README.md | replace-require-self | node",
-    "lint": "standard && standard-markdown"
+    "test": "defence README.md | replace-require-self | node"
   }
 }
